@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@600&family=Poppins&display=swap');
+
+:root{
+    --Poppins-font: "Poppins", sans-serif;
+    --Lora-font: 'Lora', serif;
+    --Dancing-font: 'Dancing Script', cursive;
+    --body-clr: #FFF8EA;
+    --card-clr: #E5D9B6;
+
+
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--body-clr);
+
+}
+
+.navbar{
+    background-color: var(--body-clr);
+}
+.navbar-brand{
+    padding-left: 150px;
+    font-family: var(--Dancing-font);
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+    
+    
+}
+.navbar-nav {
+    color: #FF6D28;
+}
+.logo{
+    height: 55px;
+    width: 40px;
+    
+    
+}
+.home-link{
+    color: #FF6D28;
+}
+
+
+.collapse a{
+    font-family: var(--Poppins-font);
+    font-weight: 600;
+}
+
+.collapse li a:hover{
+    text-decoration: underline ;
+    color: #FF6D28;
+    transition: all 0.8s ease;
+}
+.home-section{
+    height: 100vh;
+}
+
+.home-heading, .home2{
+    font-family: var(--Lora-font);
+    color: black;
+    align-items: center;
+    
+}
+
+.para{
+    font-family: var(--Poppins-font);
+    font-weight: 400;
+    
+}
+.hero-name{
+    font-family: var(--Dancing-font);
+    color: #FF6D28;
+    
+}
+.hero-header, .hero-header2{
+    font-family: var(--Lora-font);
+    color: black;
+    font-weight: 600;
+   
+}
+.hero-para{
+    font-weight: 500;
+    font-family: var(--Poppins-font);
+    
+}
+.popular-tag{
+    font-family: var(--Dancing-font);
+    font-weight: 600;
+    color: #FF6D28;
+    text-align: center;
+    text-transform: capitalize;
+} 
+.popular-tag2{
+    font-family: var(--Lora-font);
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.card{
+    outline: #FF6D28 solid;
+}
+.card-title{
+    font-family: var(--Lora-font);
+    font-weight: 600;
+    color: black;
+}
+.card-text{
+    color: black;
+    font-family: var(--Poppins-font);
+    font-weight: 400;
+}
+.card,.dish-3{
+    height: 95%;
+}
+.card-body{
+    color: var(--body-clr);
+}
+
+.recent-title{
+    font-family: var(--Dancing-font);
+    font-weight: 600;
+    color: #FF6D28;
+}
+
+.news-container{
+    background: #3C2317;
+    border-radius: 50px;
+}
+
+.news-header{
+    color: #FF6D28;
+    font-family: var(--Dancing-font);
+    font-weight: 600;
+}
+.news-subheading{
+    color: white;
+    font-family: var(--Lora-font);
+    font-weight: 600;
+}
+
+footer{
+    background: var(--body-clr);
+}
